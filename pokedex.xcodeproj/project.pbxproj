@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F340C3311EB363200081A06F /* pokemon.ttf in Resources */ = {isa = PBXBuildFile; fileRef = F340C3301EB363200081A06F /* pokemon.ttf */; };
+		F340C3351EB3648E0081A06F /* music.png in Resources */ = {isa = PBXBuildFile; fileRef = F340C3341EB3648E0081A06F /* music.png */; };
+		F340C3371EB3649D0081A06F /* music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = F340C3361EB3649D0081A06F /* music.mp3 */; };
 		F3D527351EB311080027D508 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D527341EB311080027D508 /* AppDelegate.swift */; };
 		F3D527371EB311080027D508 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D527361EB311080027D508 /* ViewController.swift */; };
 		F3D5273A1EB311090027D508 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F3D527381EB311090027D508 /* Main.storyboard */; };
@@ -19,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F340C3301EB363200081A06F /* pokemon.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = pokemon.ttf; sourceTree = "<group>"; };
+		F340C3341EB3648E0081A06F /* music.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = music.png; sourceTree = "<group>"; };
+		F340C3361EB3649D0081A06F /* music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = music.mp3; sourceTree = "<group>"; };
 		F3D527311EB311080027D508 /* pokedex.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokedex.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F3D527341EB311080027D508 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F3D527361EB311080027D508 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -43,6 +49,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F340C3321EB3632E0081A06F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F3D527361EB311080027D508 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F340C3331EB3633E0081A06F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F340C3361EB3649D0081A06F /* music.mp3 */,
+				F340C3341EB3648E0081A06F /* music.png */,
+				F3D527461EB314400027D508 /* pokemon.csv */,
+				F340C3301EB363200081A06F /* pokemon.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		F3D527281EB311080027D508 = {
 			isa = PBXGroup;
 			children = (
@@ -62,14 +87,14 @@
 		F3D527331EB311080027D508 /* pokedex */ = {
 			isa = PBXGroup;
 			children = (
-				F3D5274B1EB31CD10027D508 /* View */,
 				F3D527481EB315070027D508 /* Model */,
-				F3D527341EB311080027D508 /* AppDelegate.swift */,
-				F3D527361EB311080027D508 /* ViewController.swift */,
+				F340C3321EB3632E0081A06F /* Controller */,
+				F3D5274B1EB31CD10027D508 /* View */,
+				F340C3331EB3633E0081A06F /* Resources */,
 				F3D5274E1EB326B60027D508 /* csv.swift */,
 				F3D527381EB311090027D508 /* Main.storyboard */,
+				F3D527341EB311080027D508 /* AppDelegate.swift */,
 				F3D5273B1EB311090027D508 /* Assets.xcassets */,
-				F3D527461EB314400027D508 /* pokemon.csv */,
 				F3D5273D1EB311090027D508 /* LaunchScreen.storyboard */,
 				F3D527401EB311090027D508 /* Info.plist */,
 			);
@@ -153,10 +178,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F340C3311EB363200081A06F /* pokemon.ttf in Resources */,
 				F3D5273F1EB311090027D508 /* LaunchScreen.storyboard in Resources */,
 				F3D5273C1EB311090027D508 /* Assets.xcassets in Resources */,
 				F3D527471EB314400027D508 /* pokemon.csv in Resources */,
 				F3D5273A1EB311090027D508 /* Main.storyboard in Resources */,
+				F340C3371EB3649D0081A06F /* music.mp3 in Resources */,
+				F340C3351EB3648E0081A06F /* music.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -335,6 +363,7 @@
 				F3D527451EB311090027D508 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
