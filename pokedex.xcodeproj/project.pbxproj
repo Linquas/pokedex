@@ -20,6 +20,7 @@
 		F3D5274D1EB31CF10027D508 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5274C1EB31CF10027D508 /* PokeCell.swift */; };
 		F3D5274F1EB326B60027D508 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5274E1EB326B60027D508 /* csv.swift */; };
 		F3F02BBF1EC40A450080855E /* PokemonDeyailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F02BBE1EC40A450080855E /* PokemonDeyailVC.swift */; };
+		F3F02BC11EC40EC00080855E /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = F3F02BC01EC40EC00080855E /* back.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +39,7 @@
 		F3D5274C1EB31CF10027D508 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		F3D5274E1EB326B60027D508 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
 		F3F02BBE1EC40A450080855E /* PokemonDeyailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDeyailVC.swift; sourceTree = "<group>"; };
+		F3F02BC01EC40EC00080855E /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -65,6 +67,7 @@
 			children = (
 				F340C3361EB3649D0081A06F /* music.mp3 */,
 				F340C3341EB3648E0081A06F /* music.png */,
+				F3F02BC01EC40EC00080855E /* back.png */,
 				F3D527461EB314400027D508 /* pokemon.csv */,
 				F340C3301EB363200081A06F /* pokemon.ttf */,
 			);
@@ -185,6 +188,7 @@
 				F3D5273F1EB311090027D508 /* LaunchScreen.storyboard in Resources */,
 				F3D5273C1EB311090027D508 /* Assets.xcassets in Resources */,
 				F3D527471EB314400027D508 /* pokemon.csv in Resources */,
+				F3F02BC11EC40EC00080855E /* back.png in Resources */,
 				F3D5273A1EB311090027D508 /* Main.storyboard in Resources */,
 				F340C3371EB3649D0081A06F /* music.mp3 in Resources */,
 				F340C3351EB3648E0081A06F /* music.png in Resources */,
