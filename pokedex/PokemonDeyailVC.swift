@@ -27,8 +27,27 @@ class PokemonDeyailVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        let img = UIImage(named: "\(pokemon.pokedexId)")
+        mainImg.image = img
+        currentEvoImg.image = img
+        
 
-        nameLabel.text = pokemon.name
+        nameLabel.text = pokemon.name.capitalized
+        pokemon.downloadPokemonDetail {
+            
+            self.updateUI()
+        }
+    }
+    
+    func updateUI(){
+        ackLabel.text = pokemon.attack
+        defLabel.text = pokemon.defense
+        heightLabel.text = pokemon.height
+        weightLabel.text = pokemon.weight
+        idLabel.text = "\(pokemon.pokedexId)"
+        typeLabel.text = pokemon.type
+        descriptionLabel.text = pokemon.description
     }
 
    
