@@ -19,6 +19,7 @@
 		F3D5274A1EB315260027D508 /* Pokemon.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D527491EB315260027D508 /* Pokemon.swift */; };
 		F3D5274D1EB31CF10027D508 /* PokeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5274C1EB31CF10027D508 /* PokeCell.swift */; };
 		F3D5274F1EB326B60027D508 /* csv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3D5274E1EB326B60027D508 /* csv.swift */; };
+		F3F02BBF1EC40A450080855E /* PokemonDeyailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F3F02BBE1EC40A450080855E /* PokemonDeyailVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		F3D527491EB315260027D508 /* Pokemon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pokemon.swift; sourceTree = "<group>"; };
 		F3D5274C1EB31CF10027D508 /* PokeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokeCell.swift; sourceTree = "<group>"; };
 		F3D5274E1EB326B60027D508 /* csv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = csv.swift; sourceTree = "<group>"; };
+		F3F02BBE1EC40A450080855E /* PokemonDeyailVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonDeyailVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			isa = PBXGroup;
 			children = (
 				F3D527361EB311080027D508 /* ViewController.swift */,
+				F3F02BBE1EC40A450080855E /* PokemonDeyailVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -195,6 +198,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F3F02BBF1EC40A450080855E /* PokemonDeyailVC.swift in Sources */,
 				F3D5274D1EB31CF10027D508 /* PokeCell.swift in Sources */,
 				F3D527371EB311080027D508 /* ViewController.swift in Sources */,
 				F3D527351EB311080027D508 /* AppDelegate.swift in Sources */,
