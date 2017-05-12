@@ -139,7 +139,7 @@ class Pokemon {
                             }
                         }
                     }
-                    print(self._type)
+//                    print(self._type)
                 } else {
                     self._type = ""
                 }
@@ -170,14 +170,28 @@ class Pokemon {
                         if nextEvo.range(of: "mega") == nil {
                             self._nextEvoName = nextEvo
                             
-                            if let uri = evolutions[0]["rescouce_uri"] as? String {
-                                let newStr = uri.replacingOccurrences(of: "/api/v1/pokemon", with: "")
+                            if let uri = evolutions[0]["resource_uri"] as? String {
+                                let newStr = uri.replacingOccurrences(of: "/api/v1/pokemon/", with: "")
                                 let nextEvoID = newStr.replacingOccurrences(of: "/", with: "")
                                 
                                 self._nextEvoId = nextEvoID
+                                
+                                if let lvlExist = evolutions[0]["level"] {
+                                    if let  level = lvlExist as? Int {
+                                        self._nextEvoLevel = "\(level)"
+                                    }
+                                    
+                                } else {
+                                    self._nextEvoLevel = ""
+                                }
+                                
                             }
                         }
                     }
+//                    print("ID: "+self.nextEvoId)
+//                    print("level: "+self.nextEvoLevel)
+//                    print("name: "+self.nextEvoName)
+                    
                 }
                 
             }

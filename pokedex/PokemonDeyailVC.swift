@@ -48,6 +48,18 @@ class PokemonDeyailVC: UIViewController {
         idLabel.text = "\(pokemon.pokedexId)"
         typeLabel.text = pokemon.type
         descriptionLabel.text = pokemon.description
+        
+        if pokemon.nextEvoId == "" {
+            evoLabel.text = "No Evolutions"
+            nextEvoImg.isHidden = true
+        } else {
+            
+            nextEvoImg.isHidden = false
+            nextEvoImg.image = UIImage(named: pokemon.nextEvoId)
+            let str = "Next Evolution: \(pokemon.nextEvoName) - LVL \(pokemon.nextEvoLevel)"
+            evoLabel.text = str
+        }
+            
     }
 
    
